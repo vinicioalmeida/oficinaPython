@@ -1,5 +1,4 @@
 import fundamentus
-
 dfraw = fundamentus.get_resultado_raw()
 dfraw
 print(dfraw.columns)

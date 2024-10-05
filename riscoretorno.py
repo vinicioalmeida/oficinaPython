@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-ativos = ['PETR4.SA',	'ITUB4.SA',	'BBDC4.SA', 'VALE3.SA',	'ABEV3.SA',	
+ativos = ['PETR4.SA',	'ITUB4.SA',	'BBDC4.SA', 'VALE3.SA',	'MGLU3.SA',	
           'BBAS3.SA',	'B3SA3.SA', 'ITSA4.SA',	'BRFS3.SA',	'GGBR4.SA']
 
 inicio = '2021-01-04'
@@ -43,7 +43,7 @@ retornos_medios
 risco_retorno = pd.concat([retornos_medios,volatilidade], axis=1)
 risco_retorno
 
-sns.scatterplot(data=risco_retorno, x='Volatilidade', y='Retorno')
+sns.scatterplot(data=risco_retorno, x='Vol', y='Retornos')
 plt.show()
 
 risco_retorno.index
