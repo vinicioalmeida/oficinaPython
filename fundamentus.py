@@ -29,3 +29,4 @@ print(acao_dados)
 # Para acessar uma coluna específica, por exemplo, o "P/L" (Price-to-Earnings ratio)
 pl = acao_dados['pl']  # Nome da coluna de P/L (pode mudar dependendo do DataFrame)
 print(f"P/L da {ticker}: {pl.values[0]}")  # Acessa o valor de P/L da ação específica
+

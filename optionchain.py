@@ -1,4 +1,4 @@
-# Obtendo dados de opções negociadas na B3 - Derivativos em Py #01
+# Obtendo dados de opções negociadas na B3
 
 # Opções nos EUA
 import yfinance as yf
